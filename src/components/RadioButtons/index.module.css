@@ -1,0 +1,22 @@
+.group {
+    width: 94px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.default {
+    content: '';
+    width: 13px;
+    height: 13px;
+
+    border: 1px solid #C49BFF;
+    background-color: #101c2b;
+    transform: rotate(45deg);
+
+    box-shadow: 0px 0px 4px 1px rgba(195, 154, 253, .7);
+    cursor: pointer;
+}
+
+.default.active {
+    background-color: #C49BFF;
+}
